@@ -1,5 +1,5 @@
 ---
-title: AWE.SOME Heading
+title: Technology Consulting That Helps Your Business Thrive
 type: about
 ---
 

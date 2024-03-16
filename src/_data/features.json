@@ -1,32 +1,32 @@
 [
   {
-    "title": "AWE.SOME Feature One",
+    "title": "SDLC Efficiency",
     "icon": "icon1.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "The primary goal of a software development team is to deliver code. Are you getting the business results you need, on the timelines you need them? We analyze your SDLC from requirements gathering to deployment to ensure you’re delivering as planned and driving the business forward."
   },
   {
-    "title": "AWE.SOME Feature Two",
+    "title": "Incident Management",
     "icon": "icon2.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "When your systems go down, you need effective, proven processes for incident response and escalation; runbooks to minimize risk; and, after it all, root cause analyses (RCAs) to build the understanding and policies to prevent downtime and build quality. We help you build these from start to finish."
   },
   {
-    "title": "AWE.SOME Feature Three",
+    "title": "Recruiting, Hiring and Onboarding",
     "icon": "icon3.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "We’ll develop effective hiring practices so your new hires will be setup for success and provide value from day 1 and beyond!  This includes on-shore, off-shore, employees and contractors."
   },
   {
-    "title": "AWE.SOME Feature Four",
+    "title": "Team Management",
     "icon": "icon4.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Getting the most out of your software development teams and partners can be challenging, when you’re not in the business of software development. We manage your vendor/contractor relationships, as well as onshore and offshore team members; and drive the employee development strategies that create stable, effective teams."
   },
   {
-    "title": "AWE.SOME Feature Five",
+    "title": "Security Controls",
     "icon": "icon5.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Do you have any security gaps in your SDLC?  We have extensive experience in SDLC risk mitigation and will make sure your code is developed safely while not sacrificing efficiency..."
   },
   {
-    "title": "AWE.SOME Feature Six",
+    "title": "Finance Management",
     "icon": "icon6.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Do your projects meet their budgets – and are those budgets realistic up front? Are you properly recognizing development work as capitalizable assets? We ensure that you follow finance best practices and that your balance sheet reflects the business value delivered."
   }
 ]
