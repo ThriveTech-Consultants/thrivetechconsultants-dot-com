@@ -2,13 +2,6 @@
 
 A simple landing page built with 11ty and Tailwind CSS.
 
-**Other versions**
-
-- [Astro](https://github.com/ttntm/astro-landing-page)
-- [Hugo](https://github.com/ttntm/hugo-landing-page)
-
-## How to use this template
-
 **Requirements:**
 
 1. Eleventy (developed and tested with version 0.12.1)
@@ -18,11 +11,19 @@ All other dependencies are either linked from a CDN or included in this reposito
 
 **Setup:**
 
-1. Fork, clone or download
-2. `cd` into the root folder
-3. run `npm install`
-4. run `npm run serve`
-5. open a browser and go to `http://localhost:8080`
+1. [Install node and npm](https://nodejs.org/en/download)
+2. Fork, clone or download this repo, by [following Github's directions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+3. `cd` into the root folder of this repo
+4. run `npm install`
+5. run `npm run serve`
+6. open a browser and go to `http://localhost:8080`
+
+**Change Content:**
+
+Content is written using [markdown](https://commonmark.org/help/), which is also used within JIRA and GitHub, so you probably already know it.
+
+- To change the list of attributes, edit `./src/_data/features.json`
+- To change the welcome content, edit `./src/sections/about.md`
 
 **Basic configuration:**
 
@@ -33,16 +34,6 @@ All other dependencies are either linked from a CDN or included in this reposito
 CSS is built via PostCSS and based on `./src/_includes/css/_page.css`. Building CSS gets triggered by `./src/css/page.11ty.js` and Tailwind's config is set to JIT (see: [Tailwind docs](https://tailwindcss.com/docs/just-in-time-mode))
 
 Please note that this CSS build _does not_ include the `normalize.css` file used for the 2 regular pages (imprint, privacy) - a minified production version is stored in `./src/static/css` and gets included in the build by default.
-
-**Change Content:**
-
-Page content is stored in
-
-- `./src/`
-  - `imprint.md`
-  - `privacy.md`
-- `./src/sections/`
-- `./src/_data/features.json`
 
 **Change Templates/Layout:**
 
