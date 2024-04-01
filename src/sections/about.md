@@ -1,6 +1,6 @@
 ---
-title: Technology Consulting That Helps Your Business Thrive
+title: What We Do
 type: about
 ---
 
-Small, growing, awesome businesses that are struggling with the non-technical side of engineering hire us to build their SDLC, hiring, and other roles and processes, in order to have an efficient, happy team that produces quality code. We lead with kindness, driving continuous improvement when stability is missing or during times of leadership transition.
+We help software development teams struggling with various aspects of software engineering processes.<br><br>Hire us to optimize your overall operations by creating repeatable and adaptable processes which will allow your team to focus on delivering product value effectively.<br><br> We emphasize stability, predictability and continuous improvement which will lead to building a successful and thriving organization.
