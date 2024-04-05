@@ -1,6 +1,6 @@
 ---
-title: Registration
+title: Contact Us
 type: register
 ---
 
-Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi.
+Find out what we can do for you.

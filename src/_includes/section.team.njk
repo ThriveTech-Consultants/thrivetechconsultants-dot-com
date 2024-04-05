@@ -1,0 +1,23 @@
+{% for item in collections.sections %}
+  {% if item.data.type === 'team' %}
+    <div id="team" class="w-full min-h-screen flex flex-col justify-top items-center py-12">
+      <div class="self-center text-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px-0">
+        <h2 class="font-bold tracking-wider text-gray-800 text-4xl mb-4">{{ item.data.title }}</h2>
+      </div>
+      <div class="self-center text-left w-full sm:w-2/3 xl:w-1/2 px-4 sm:px-0 mb-4">
+          <a class="text-gray-800 font-bold hover:text-purple-600 text-2xl text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="{{ item.data.url1 }}" target="_blank" rel="noopener">{{ item.data.person1 }}</a>
+          <div class="font-light text-black text-xl">
+            {{ item.data.content1 }}
+          </div>
+          <a class="text-gray-800 font-bold hover:text-purple-600 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="{{ item.data.url1 }}" target="_blank" rel="noopener"> >>Linkedin profile</a>
+      </div>
+      <div class="self-center text-left w-full sm:w-2/3 xl:w-1/2 px-4 sm:px-0">
+          <a class="text-gray-800 font-bold hover:text-purple-600 text-2xl text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="{{ item.data.url2 }}" target="_blank" rel="noopener">{{ item.data.person2 }}</a>
+          <div class="font-light text-black text-xl">
+            {{ item.data.content2 }}
+          </div>
+          <a class="text-gray-800 font-bold hover:text-purple-600 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="{{ item.data.url2 }}" target="_blank" rel="noopener"> >>Linkedin profile</a>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
