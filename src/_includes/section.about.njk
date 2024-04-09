@@ -2,8 +2,8 @@
   {% if item.data.type === 'about' %}
     <div id="about" class="w-full min-h-screen flex flex-col justify-center items-center py-12">
       <div class="self-center text-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px-0"><a name="what">
-        <h2 class="font-bold tracking-wider text-gray-800 text-4xl mb-4">{{ item.data.title }}</h2>
-        <div class="font-light text-thrivedark text-xl">
+        <h2 class="font-bold tracking-wider text-thrivedark text-4xl mb-4">{{ item.data.title }}</h2>
+        <div class="font-light text-gray-800 text-xl">
           {{ item.templateContent | safe }}
         </div>
         <img class="my-12 max-w-full mx-auto" src="{{ env.baseUrl }}img/light-arrows_wide_ltbg.png" alt="Arrows">
