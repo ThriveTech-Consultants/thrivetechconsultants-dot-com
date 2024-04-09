@@ -1,19 +1,44 @@
 <footer class="w-full flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 py-16">
-  <div class="text-center pr-0 sm:pr-8 py-4">
+  {# <div class="text-center pr-0 sm:pr-8 py-4">
     <ul class="list-none">
       {% for item in site.social %}
         <li>
-          <a class="text-gray-800 hover:text-purple-600 no-underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
+          <a class="text-gray-800 hover:text-thrivelight no-underline" href="{{ item.url }}" target="_blank" rel="_noopener">{{ item.title }}</a>
         </li>
       {% endfor %}
     </ul>
   </div>
+  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-thrivedark mx-auto sm:mx-0"></div> #}
+  <div class="text-center px-8 py-4">
+    <ul class="list-none">
+      <li>
+        <a class="text-gray-800 hover:text-thrivelight no-underline" href="{% if isFront %}#what{% else %}{{ env.baseUrl }}#what{% endif %}">What We Do</a>
+      </li>
+    </ul>
+  </div>
+  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-thrivedark mx-auto sm:mx-0"></div>
+  <div class="text-center px-8 py-4">
+    <ul class="list-none">
+      <li>
+        <a class="text-gray-800 hover:text-thrivelight no-underline" href="{% if isFront %}#services{% else %}{{ env.baseUrl }}#services{% endif %}">Services</a>
+      </li>
+    </ul>
+  </div>
+  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-thrivedark mx-auto sm:mx-0"></div>
+
+  <div class="text-center px-8 py-4">
+    <ul class="list-none">
+      <li>
+        <a class="text-gray-800 hover:text-thrivelight no-underline" href="{% if isFront %}#team{% else %}{{ env.baseUrl }}#team{% endif %}">Team</a>
+      </li>
+    </ul>
+  </div>
+  <div class="h-px sm:h-auto w-1/2 sm:w-px bg-thrivedark mx-auto sm:mx-0"></div>
+  <div class="text-center px-8 py-4">
+    <ul class="list-none">
+      <li>
+        <a class="text-gray-800 hover:text-thrivelight no-underline" href="{% if isFront %}#contact{% else %}{{ env.baseUrl }}#contact{% endif %}">Contact Us</a>
+      </li>
+    </ul>
+  </div>
 </footer>
-<!-- "Follow" Tooltip template -->
-<template id="followTip">
-  {% for item in site.social %}
-    <a href="{{ item.url }}"
-      class="inline-block text-gray-200 text-sm bg-purple-600 shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1"
-      target="_blank" rel="noopener">{{ item.title }}</a>
-  {% endfor %}
-</template>

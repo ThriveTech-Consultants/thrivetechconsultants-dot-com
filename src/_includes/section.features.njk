@@ -2,7 +2,7 @@
   {% if item.data.type === 'features' %}
     <div id="features" class="w-full min-h-screen flex flex-col justify-center items-center bg-thrivedark text-white py-12">
       <div class="self-center text-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px-0">
-        <h2 class="tracking-wide text-white font-bold text-4xl mb-4">{{ item.data.title }}</h2>
+        <a name="services"><h2 class="tracking-wide text-white font-bold text-4xl mb-4">{{ item.data.title }}</h2></a>
         <div class="font-light text-gray-100 text-xl mb-6">
           {{ item.templateContent | safe }}
         </div>
