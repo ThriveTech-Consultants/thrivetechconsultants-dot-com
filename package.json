@@ -4,6 +4,7 @@
   "description": "Our landing page",
   "scripts": {
     "serve": "ELEVENTY_ENV=dev eleventy --serve",
+		"clean": "rm -rf docs/ && mkdir docs",
     "deploy": "eleventy"
   },
   "author": "ttntm",
