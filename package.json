@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Our landing page",
   "scripts": {
-    "serve": "ELEVENTY_ENV=dev eleventy --serve",
+		"build": "npm run clean && npm run build:prod",
+		"build:prod": "env NODE_ENV=production npx @11ty/eleventy",
 		"clean": "rm -rf docs/ && mkdir docs",
-    "deploy": "eleventy"
+    "deploy": "eleventy",
+		"serve": "ELEVENTY_ENV=dev eleventy --serve"
   },
   "author": "ttntm",
   "license": "MIT",
