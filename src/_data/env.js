@@ -1,7 +1,8 @@
-const isDev = process.env.ELEVENTY_ENV === 'dev'
+const isDev = process.env.ELEVENTY_ENV === "dev";
 
 module.exports = {
-  baseUrl: isDev
-    ? '/'
-    : '/11ty-landing-page/'
-}
+	// baseUrl: isDev
+	//   ? '/'
+	//   : '/11ty-landing-page/'
+	baseUrl: "/",
+};
