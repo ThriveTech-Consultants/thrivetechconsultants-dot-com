@@ -2,7 +2,7 @@
   {
     "title": "SDLC Efficiency",
     "icon": "SDLC.svg",
-    "content": "The primary goal of a software development team is to deliver code. Are you getting the business results you need, on the timelines you need them? We analyze your SDLC from requirements gathering to deployment to ensure you’re delivering as planned and driving the business forward."
+    "content": "The primary goal of a software development team is to deliver code. Are you getting the business results you need, in the timelines you need them? We analyze your SDLC from requirements gathering to deployment to ensure you’re delivering as planned and driving the business forward."
   },
   {
     "title": "Incident Management",
@@ -12,7 +12,7 @@
   {
     "title": "Recruiting, Hiring and Onboarding",
     "icon": "Hiring.svg",
-    "content": "We’ll develop effective hiring practices so your new hires will be setup for success and provide value from day 1 and beyond!  This includes on-shore, off-shore, employees and contractors."
+    "content": "We’ll develop effective hiring practices so your new hires will be setup for success and provide value from day 1 and beyond.  This includes on-shore, off-shore, employees and contractors."
   },
   {
     "title": "Team Management",
@@ -27,6 +27,6 @@
   {
     "title": "Finance Management",
     "icon": "Budget.svg",
-    "content": "Do your projects meet their budgets – and are those budgets realistic up front? Are you properly recognizing development work as capitalizable assets? We ensure that you follow finance best practices and that your balance sheet reflects the business value delivered."
+    "content": "Do your projects meet their budgets – and are those budgets realistic up front? Are you properly recognizing development work as capitalizable assets? We ensure you follow finance best practices and your balance sheet reflects the business value delivered."
   }
 ]
