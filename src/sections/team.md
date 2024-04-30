@@ -1,7 +1,7 @@
 ---
 title: The Team
 person1: Rob Rocco
-headshot1: Rob_Headshot_Stand.png
+headshot1: Rob_Headshot_Stand.jpg
 content1: Rob is an experienced software development executive with high volume enterprise software systems across various sectors including E! Entertainment, Comcast, AMC Networks, Rockwell Collins and The Capital Group. He has extensive experience managing highly skilled development teams with an emphasis on collaboration and accountability.  Throughout his career, Rob has successfully led teams through various projects and initiatives ranging from site launches to Agile SDLC transitions delivering business value with a focus on team and individual professional growth.
 url1: https://www.linkedin.com/in/roccor/
 person2: Wade Armstrong
